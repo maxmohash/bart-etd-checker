@@ -8,7 +8,8 @@ from_station = "Mont"
 to_station = "Dublin/Pleasanton"
 # MW9S-E7SL-26DU-VV8V is the api access key provided by http://www.bart.gov/schedules/developers/api
 # But you are encouraged to get your access key from here https://api.bart.gov/api/register.aspx
-url = "https://api.bart.gov/api/etd.aspx?cmd=etd&orig={}&dir=n&key=MW9S-E7SL-26DU-VV8V".format(from_station)
+bart_api_access_key = "MW9S-E7SL-26DU-VV8V"
+url = "https://api.bart.gov/api/etd.aspx?cmd=etd&orig={}&dir=n&key={}".format(from_station, bart_api_access_key)
 root = etree.parse(urllib.urlopen(url))
 
 
