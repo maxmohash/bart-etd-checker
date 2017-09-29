@@ -32,7 +32,7 @@ def get_bart_etd():
 				if x.text == "Leaving":
 					print x.text, "Now"
 				else:
-					print "Next train in", x.text, "minutes"
+					print "Next train to {} from {} in".format(to_station, from_station), x.text, "minutes"
 					if counter == 3:
 						break
 			break
