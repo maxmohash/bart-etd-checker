@@ -22,8 +22,8 @@ Now to run the parser just type in virtualenv
 
 `make clean freshstart`
 
-# Read this https://api.bart.gov/docs/overview/ to know more about BART api.
+### Read this https://api.bart.gov/docs/overview/ to know more about BART api.
 
-# Credits to https://api.bart.gov/api/ for making this possible!
+### Credits to https://api.bart.gov/api/ for making this possible!
 
 ## Now go and catch BART and enjoy the ride safely!
