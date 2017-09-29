@@ -14,7 +14,7 @@ Best practice to use the virtualenv by following the below steps:
 
 `source venv/bin/activate`
 
-Now to run the parser just type in virtualenv
+### Now to get the BART ETD just type in virtualenv or in terminal directly:
 
 `python bartetdchecker.py`
 
