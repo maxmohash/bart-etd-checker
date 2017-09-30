@@ -22,14 +22,15 @@ Best practice to use the virtualenv by following the below steps:
 
 `make clean freshstart`
 
-Example Output:
+##### Example Output:
 
-`Next train to Dublin/Pleasanton from Mont in 16 minutes`
-`Next train to Dublin/Pleasanton from Mont in 36 minutes`
-`Next train to Dublin/Pleasanton from Mont in 56 minutes`
+```Next train to Dublin/Pleasanton from Mont in 16 minutes
+   Next train to Dublin/Pleasanton from Mont in 36 minutes
+   Next train to Dublin/Pleasanton from Mont in 56 minutes
+```
 
 ##### Read this https://api.bart.gov/docs/overview/ to know more about BART api.
 
 ##### Credits to https://api.bart.gov/api/ for making this possible!
 
-#### Now go and catch BART and enjoy the ride safely!
+### Now go and catch BART and enjoy the ride safely!
