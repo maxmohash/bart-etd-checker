@@ -16,7 +16,7 @@ source venv/bin/activate
 
 `python bartetdchecker.py`
 
-#### You can also Use Makefile commands to install everything:
+#### You can also use Makefile commands to install everything:
 
 `make clean freshstart`
 
