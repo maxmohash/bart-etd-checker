@@ -24,9 +24,10 @@ Best practice to use the virtualenv by following the below steps:
 
 ##### Example Output:
 
-```Next train to Dublin/Pleasanton from Mont in 16 minutes
-   Next train to Dublin/Pleasanton from Mont in 36 minutes
-   Next train to Dublin/Pleasanton from Mont in 56 minutes
+```
+Next train to Dublin/Pleasanton from Mont in 16 minutes
+Next train to Dublin/Pleasanton from Mont in 36 minutes
+Next train to Dublin/Pleasanton from Mont in 56 minutes
 ```
 
 ##### Read this https://api.bart.gov/docs/overview/ to know more about BART api.
