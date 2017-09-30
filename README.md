@@ -4,15 +4,13 @@
 
 Best practice to use the virtualenv by following the below steps:
 
-`sudo easy_install pip`
-
-`pip install virtualenv`
-
-`pip install -Ur requirements.txt`
-
-`virtualenv venv`
-
-`source venv/bin/activate`
+```
+sudo easy_install pip
+pip install virtualenv
+pip install -Ur requirements.txt
+virtualenv venv
+source venv/bin/activate
+```
 
 #### Now to get the BART ETD just type in virtualenv or in terminal directly:
 
