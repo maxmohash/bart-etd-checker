@@ -12,7 +12,7 @@ virtualenv venv
 source venv/bin/activate
 ```
 
-#### Now to get the BART ETD just type in virtualenv or in terminal directly:
+#### Now to get the BART ETD just type in terminal:
 
 `python bartetdchecker.py`
 
