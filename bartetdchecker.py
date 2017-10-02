@@ -1,5 +1,6 @@
 from lxml import etree
 import urllib
+from time import sleep
 
 
 # Here is the list of abbreviations to be used for all BART reachable stations:
@@ -25,7 +26,7 @@ def get_bart_etd():
 	loop = 1
 	for destination in root.xpath('/root/station/etd/destination'):
 		loop += 1
-		if loop == len(get_count_of_destination()):
+		if loop > len(get_count_of_destination()):
 			print "Sorry! It looks like BART is not available for your destination right now!"
 		if destination.text == to_station:
 			for x in root.xpath('/root/station/etd/estimate/minutes'):
