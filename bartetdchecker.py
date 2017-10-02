@@ -1,6 +1,5 @@
 from lxml import etree
 import urllib
-from time import sleep
 
 
 # Here is the list of abbreviations to be used for all BART reachable stations:
