@@ -1,6 +1,6 @@
 # BART ETD Checker
 
-## Python way to check BART ETD from a station to a station
+## Python way to check BART ETD from a station to a station plus get latest delays and advisories
 
 Best practice to use the virtualenv by following the below steps:
 
@@ -23,9 +23,15 @@ source venv/bin/activate
 ##### Example Output:
 
 ```
-Next train to Dublin/Pleasanton from Mont in 16 minutes
-Next train to Dublin/Pleasanton from Mont in 36 minutes
-Next train to Dublin/Pleasanton from Mont in 56 minutes
+Next train to Dublin/Pleasanton from Mont in 6 minutes
+
+
+Next train to Dublin/Pleasanton from Mont in 20 minutes
+
+
+Next train to Dublin/Pleasanton from Mont in 35 minutes
+
+No delays reported.
 ```
 
 ##### Read this https://api.bart.gov/docs/overview/ to know more about BART api.
