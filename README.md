@@ -23,15 +23,15 @@ source venv/bin/activate
 ##### Example Output:
 
 ```
-Next train to Dublin/Pleasanton from Mont in 6 minutes
+Next train to Dublin/Pleasanton from Mont in 8 minutes
 
+Next train to Dublin/Pleasanton from Mont in 22 minutes
 
-Next train to Dublin/Pleasanton from Mont in 20 minutes
-
-
-Next train to Dublin/Pleasanton from Mont in 35 minutes
+Next train to Dublin/Pleasanton from Mont in 37 minutes
 
 No delays reported.
+
+No advisories at the moment!
 ```
 
 ##### Read this https://api.bart.gov/docs/overview/ to know more about BART api.

@@ -32,6 +32,8 @@ def get_bart_advisories():
 		print data['root']['bsa'][0]['description']['#cdata-section']
 		if data['root']['message'] != "":
 			print data['root']['message']
+		else:
+			print "\n", "No advisories at the moment!"
 
 
 def get_bart_etd():
@@ -47,7 +49,7 @@ def get_bart_etd():
 				if x.text == "Leaving":
 					print x.text, "Now"
 				else:
-					print "\n", "Next train to {} from {} in".format(to_station, from_station), x.text, "minutes" "\n"
+					print "Next train to {} from {} in".format(to_station, from_station), x.text, "minutes" "\n"
 					if counter == 3:
 						break
 			break
