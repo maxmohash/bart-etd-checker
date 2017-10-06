@@ -1,6 +1,6 @@
 # BART ETD Checker
 
-## Python way to check BART ETD from a station to a station plus get latest delays and advisories
+## Check BART ETD from a station to a station plus get latest delays and advisories
 
 Best practice to use the virtualenv by following the below steps:
 
