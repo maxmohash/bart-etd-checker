@@ -47,12 +47,16 @@ def get_bart_etd():
 			for x in root.xpath('/root/station/etd[{}]/estimate/minutes'.format(loop)):
 				counter += 1
 				if x.text == "Leaving":
-					print x.text, "Now"
+					print x.text, "Now", "\n"
 				else:
-					print "Next train to {} from {} in".format(to_station, from_station), x.text, "minutes" "\n"
+					print "Next train to {} from {} in".format(to_station, from_station), x.text, "minutes", "\n"
 					if counter == 3:
 						break
 			break
 
-get_bart_etd()
-get_bart_advisories()
+
+def main():
+	get_bart_etd()
+	get_bart_advisories()
+
+main()
